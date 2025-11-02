@@ -6,5 +6,5 @@ public enum AlquilerStatus
     Confirmado = 2,
     Rechazado = 3,
     Cancelado = 4,
-    COmpletado = 5
+    Completado = 5
 }

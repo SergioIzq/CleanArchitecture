@@ -1,10 +1,10 @@
-﻿namespace CleanArchitecture.Domain.Vehiculos;
+﻿namespace CleanArchitecture.Domain.Shared;
 
 public record TipoMoneda
 {
-    public static readonly TipoMoneda None = new ("");
-    public static readonly TipoMoneda Usd = new ("USD");
-    public static readonly TipoMoneda Eur = new ("EUR");
+    public static readonly TipoMoneda None = new("");
+    public static readonly TipoMoneda Usd = new("USD");
+    public static readonly TipoMoneda Eur = new("EUR");
 
     private TipoMoneda(string codigo) => Codigo = codigo;
 
